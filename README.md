@@ -1,6 +1,6 @@
-### Estudando CSS com a <a href="https://www.rocketseat.com.br/">Rocketseat</a>
+### Estudando CSS
 
-Neste repositório deixarei por escrito algumas questões teóricas e helps sobre CSS.
+Neste repositório deixarei por escrito algumas questões teóricas e helps sobre CSS do curso que fiz com a <a href="https://www.rocketseat.com.br/">Rocketseat</a>
 
 ### CSS 
 - [Conhecendo o CSS](#hello-css)
