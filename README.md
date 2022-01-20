@@ -16,6 +16,7 @@ Neste repositório deixarei por escrito algumas questões teóricas e helps sobr
 - [Cores](#cores)
 - [Background](#background)
 - [Posicionar os elementos na tela](#position)
+- [Fontes](#fontes)
 
 
 ##
@@ -296,6 +297,21 @@ div.parent {
 
 #### <a name="fontes"></a> Fontes
 
+- Font Family
+Tipo de fonte de um elemento
+
+- Font Weight
+Peso da fonte
+Valores: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+Dependendo da família da fonte não conseguimos utilizar todos os pesos de fonte
+
+- Font Style
+É o estilo da fonte
+Valores: normal | italic | oblique
+Os valores que podem ser aplicados dependem da fonte usada
+
+- Font Size
+Tamanho da fonte
 
 
 
@@ -305,15 +321,6 @@ div.parent {
 
 
 
+Referências:
 
-
-
-
-
-
-
-
-
-
-Documentação do MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/border
-
+ https://developer.mozilla.org/en-US/docs/Web/CSS/border
