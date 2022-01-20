@@ -10,6 +10,13 @@ Neste repositório deixarei por escrito algumas questões teóricas e helps sobr
 - [Tipos Numéricos e Unidades Comuns](#numericos-unidades)
 - [Position](#position)
 - [Display block e inline](#display-block-inline)
+- [Margin](#margin)
+- [Padding](#padding)
+- [Border-outline](#border-outline)
+- [Cores](#cores)
+- [Background](#background)
+- [Posicionar os elementos na tela](#position)
+
 
 ##
 
@@ -115,3 +122,198 @@ margin: 12px 16px 0; /* TOP = 12px | RIGHT = 16px | BOTTOM = 0px | LEFT = 16px *
 margin: 8px 16px; /* TOP = 8px | RIGHT = 16px | BOTTOM = 8px | LEFT = 16px */
 margin: 8px; /* TOP = 8px | RIGHT = 8px | BOTTOM = 8px | LEFT = 8px */
 ```
+
+##
+
+#### <a name="padding"></a> Padding
+
+O padding é o preenchimento interno da caixa.
+
+A propriedade padding pode ser escrita como nos formatos apresentados abaixo:
+padding-top | padding-right | padding-bottom | padding-left
+
+Geralmente usamos uma forma abreviada (shorthand) para escrever o padding. Esse formato segue o sentido horário iniciando pelo top, seguindo para right, bottom e left.
+
+```css
+padding: 12px 16px 10px 4px; /* TOP = 12px | RIGHT = 16px | BOTTOM = 10px | LEFT = 4px */
+padding: 12px 16px 0; /* TOP = 12px | RIGHT = 16px | BOTTOM = 0px | LEFT = 16px */
+padding: 8px 16px; /* TOP = 8px | RIGHT = 16px | BOTTOM = 8px | LEFT = 16px */
+padding: 8px; /* TOP = 8px | RIGHT = 8px | BOTTOM = 8px | LEFT = 8px */
+```
+
+O padding pode ter valores (values) de comprimento (px, em, rem) ou de porcentagem (%)
+
+O padding poderá causar diferença na largura de um elemento
+
+##
+
+#### <a name="border-outline"></a> Border-outline
+
+São as bordas da caixa
+
+value: border-style | border-width | border-color
+
+style: solid | dotted | dashed | double | groove | ridge | inset | outset
+width: length
+color: color
+
+
+```css
+div {
+	/* shorthand */
+	border-top: solid 2px; /* top | right | bottom | left */
+
+	/* style */
+	border: solid;
+
+	/* width <length> | style */
+	border: 2px dotted;
+
+	/* style | color */
+	border: outset #f33;
+
+	/* width | style | color */
+	border: medium dashed green;
+
+}
+```
+O outline é muito semelhante ao border, mas difere em 4 sentidos:
+- Não modifica o tamanho da caixa, pois não é parte do Box Model
+- Poderá ser diferente de retangular
+- Não permite ajuste individuais
+- Mais usado pelo user agent para acessibilidade
+
+##
+
+#### <a name="cores"></a> Cores
+
+Usamos CSS para alterar cores do nosso documento.
+
+Tipos:
+- background-color (para caixas)
+- color (para textos)
+- border-color (para caixas)
+- outros
+
+Valores
+- Podemos definir valores por:
+- palavra-chave (blue, transparent)
+- hexadecimal (#990011)
+- funções: rgb, rgba, hsl, hsla
+
+##
+
+#### <a name="background"></a> Background
+
+- Background-color
+
+A propriedade background-color define a cor de fundo do elemento selecionado.
+
+- Background-image
+
+Para adicionar uma imagem como background podemos usar a propriedade background-image.
+Por padrão a imagem vai se repetir e podemos modificar essa opção usando a propriedade background-repeat.
+
+- Background-position
+
+Com a propriedade background-position podemos mudar a posição da imagem do background.
+
+- Background-size
+
+Para mudar o tamanho da imagem do background usamos a propriedade background-size.
+
+- Background-origin-clip
+
+A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+O background-clip define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+
+- Background-attachment
+
+A propriedade background-attachment determina se a posição da imagem vai ser fixa ou se vai rolar junto com o conteúdo.
+
+- Gradient
+
+linear-gradient() é a função usada para criar gradient linear com o CSS.
+radial-gradient() é a função usada para criar gradient circular.
+
+##
+
+#### <a name="position"></a> Posicionar os elementos na tela
+
+- Position
+
+Controla onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+Name: position
+Value: static | relative | absolute | fixed
+
+Lembrando que o fluxo normal dos elementos é ficar um abaixo do outro, a não ser no caso de elementos inline, que ficam um ao lado do outro.
+
+- Static 
+
+Por padrão os elementos são static. Isso significa que os elementos irão seguir o fluxo normal do HTML.
+
+- Relative
+
+O position indica onde o elemento vai ser posicionado na página. Ao usar o position podemos adicionar outras propriedades como top, right, bottom, left e z-index, que vão determinar o posicionamento final do elemento.
+
+Quando o position é relative os elementos são deslocados do seu posicionamento normal, mas sem afetar o posicionamento de outros elementos da página.
+
+- Absolute
+
+Quando o position é absolute o elemento é deslocado saindo do fluxo normal. O elemento de position absolute é posicionado em relação ao seu parent element mais próximo. Se esse elemento "pai" não existir, ele será posicionando em relação ao bloco contendo a raiz do elemento.
+
+- Fixed
+
+Quando aplicado o position fixed é como se criasse um elemento flutuante que fica fixo na página, independente do scrolling feito.
+
+- Element Stacking
+
+É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
+- Flexbox
+
+Nos permite posicionar os elementos dentro da caixa
+Controle em uma dimensão (horizontal ou vertical)
+Alinhamento, direcionamento, ordenar e tamanhos
+
+```css
+div.parent {
+	display: flex;
+}
+```
+
+    - Flex-direction
+Qual a direção do flex: horizontal ou vertical
+row | column
+
+    - Alinhamento
+justify-content
+align-items
+
+
+##
+
+#### <a name="fontes"></a> Fontes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Documentação do MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
