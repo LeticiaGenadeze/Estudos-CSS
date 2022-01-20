@@ -284,12 +284,12 @@ div.parent {
 ```
 
 - Flex-direction
-- - Qual a direção do flex: horizontal ou vertical
-- - row | column
+    - Qual a direção do flex: horizontal ou vertical
+    - row | column
 
 - Alinhamento
-- - justify-content
-- - align-items
+    - justify-content
+    - align-items
 
 
 ##
