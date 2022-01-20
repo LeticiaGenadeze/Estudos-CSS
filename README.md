@@ -9,7 +9,7 @@ Neste repositório deixarei por escrito algumas questões teóricas e helps sobr
 - [Regra important](#regra-important)
 
 
-
+##
 
 #### <a name="hello-css"></a> Conhecendo o CSS
 
@@ -19,11 +19,15 @@ O CSS é um código para criar estilos no HTML, que é a estrutura de todo o doc
 
 CSS não é uma linguagem de programação.
 
+##
+
 #### <a name="comentarios"></a> Comentários
 
 Os comentários no css não irão afetar o código e podem nos ajudar a lembrar de blocos de códigos ou agrupar e organizar nosso código.
 
 Os comentários abrem com /* e terminam com */ .
+
+##
 
 #### <a name="box-model"></a> Box Model
 
@@ -34,6 +38,7 @@ Os comentários abrem com /* e terminam com */ .
 - Preenchimento interno: o padding
 - Espaços fora da caixa: a margin
 
+##
 
 #### <a name="regra-important"></a> Regra important
 
