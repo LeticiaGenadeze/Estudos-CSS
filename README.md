@@ -86,10 +86,10 @@ Não confundir com a propriedade position
 display: block; vs display: inline;
 
 - Display Block
-- - Ocupa toda a linha, colocando o próximo elemento abaixo desse
-- - width e height são respeitados
-- - padding, margin, border irão funcionar normalmente
-- - <p> <div> <section>, todos os headings <h1> <h2>
+    - Ocupa toda a linha, colocando o próximo elemento abaixo desse
+    - width e height são respeitados
+    - padding, margin, border irão funcionar normalmente
+    - <p> <div> <section>, todos os headings <h1> <h2>
 
 - Display Inline
 - - Os elementos ficam ao lado do outro e não empurram outros elementos para baixo
