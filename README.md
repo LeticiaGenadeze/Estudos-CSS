@@ -1,4 +1,4 @@
-### Estudando CSS com a @Rocketseat 
+### Estudando CSS com a <a href="https://www.rocketseat.com.br/">Rocketseat</a>
 
 Neste repositório deixarei por escrito algumas questões teóricas e helps sobre CSS.
 
