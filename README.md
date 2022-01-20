@@ -313,14 +313,8 @@ Os valores que podem ser aplicados dependem da fonte usada
 - Font Size
 Tamanho da fonte
 
-
-
-
-
 ##
-
-
 
 Referências:
 
- https://developer.mozilla.org/en-US/docs/Web/CSS/border
+ https://developer.mozilla.org
