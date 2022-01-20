@@ -8,7 +8,8 @@ Neste repositório deixarei por escrito algumas questões teóricas e helps sobr
 - [Box Model](#box-model)
 - [Regra important](#regra-important)
 - [Tipos Numéricos e Unidades Comuns](#numericos-unidades)
-
+- [Position](#position)
+- [Display block e inline](#display-block-inline)
 
 ##
 
@@ -66,3 +67,32 @@ Unidades comuns:
 - angle - representa um ângulo: deg, rad, turn
 - time - representa um tempo: s, ms
 - resolution - representa resoluções para dispositivos: dpi
+
+##
+
+#### <a name="position"></a> Position
+
+<position>
+
+Representa um conjunto de coordenadas
+top, right, bottom, left e center
+Usado para alguns tipos de propriedades como o background-position
+Não confundir com a propriedade position
+
+##
+
+#### <a name="display-block-inline"></a> Display block e inline
+
+display: block; vs display: inline;
+
+# Display Block
+- Ocupa toda a linha, colocando o próximo elemento abaixo desse
+- width e height são respeitados
+- padding, margin, border irão funcionar normalmente
+- <p> <div> <section>, todos os headings <h1> <h2>...
+
+# Display Inline
+- Os elementos ficam ao lado do outro e não empurram outros elementos para baixo
+- width e height não funcionam
+- Somente valores horizontais de margin
+- <a> <strong> <span> <em>
