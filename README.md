@@ -283,13 +283,13 @@ div.parent {
 }
 ```
 
-    Flex-direction
-Qual a direção do flex: horizontal ou vertical
-row | column
+- Flex-direction
+- - Qual a direção do flex: horizontal ou vertical
+- - row | column
 
-    Alinhamento
-justify-content
-align-items
+- Alinhamento
+- - justify-content
+- - align-items
 
 
 ##
